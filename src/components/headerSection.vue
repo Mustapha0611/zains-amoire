@@ -52,7 +52,7 @@
         </li>
         <li class="py-2 px-4">
           <a
-            href=""
+            href="#faq"
             class="pb-4 md:hover:text-slate-800 hover:border-b-2 hover:border-b-gray-400 md:hover:border-b-slate-900 hover:text-gray-300"
             @click="toggleMenu"
             >FAQs</a

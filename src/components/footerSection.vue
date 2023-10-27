@@ -8,10 +8,10 @@
                 <address>houseno 6 Gada's Street fillin mallawa, zaria, Kaduna </address>
             </div>
             <div class="flex gap-4">
-                <a href=""></a><i class="fi fi-brands-instagram"></i>
-                <a href=""></a><i class="fi fi-brands-whatsapp"></i>
-                <a href=""></a><i class="fi fi-ts-phone-call"></i>
-                <a href=""></a><i class="fi fi-brands-twitter"></i>
+                <a href=""><i class="fi fi-brands-instagram"></i></a>
+                <a href=""><i class="fi fi-brands-whatsapp"></i></a>
+                <a href=""><i class="fi fi-brands-tik-tok"></i></a>
+                <a href=""><i class="fi fi-brands-twitter"></i></a>
                 
             </div>
         </section>

@@ -5,13 +5,12 @@
     <section class="flex-1 lg:px-20 md:px-10">
       <div>
         <h2
-          class="font-bold py-2 md:py-10 lg:text-6xl text-5xl leading-[1.5] lg:leading-normal" 
-          
+          class="animate__animated animate__zoomIn animate__faster font-bold py-2 md:py-10 lg:text-6xl text-5xl leading-[1.5] lg:leading-normal" 
         >
           Experience Modest Fashion Like Never Before
         </h2>
-        <p class="py-5">From Timeless Classic to Latest Fashion Pieces</p>
-        <div class="py-10 flex md:flex-row flex-col gap-3">
+        <p class="py-5 animate__animated animate__zoomIn animate__faster">From Timeless Classic to Latest Fashion Pieces</p>
+        <div class="py-10 flex md:flex-row flex-col gap-3 animate__animated animate__zoomIn">
           <a
             href=""
             class="text-white px-3 py-3 text-center text-sm lg:px-5 border-2 border-black bg-black md:mr-5 hover:text-black hover:bg-white transition-all"

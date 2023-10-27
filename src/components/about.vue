@@ -7,7 +7,7 @@
       <div class="flex-1">
         <img src="../assets/hijab.jpg" alt="" class="grayscale lg:h-[55vh] md:h-[60vh] h-[30vh]" />
       </div>
-      <div class="flex-1 md:px-5">
+      <div class="flex-1 md:px-5 animate__animated animate__fadeInTopLeft">
         <h2 class="font-semibold text-lg lg:text-2xl py-5">
           Welcome to Zain Amoire – Where Modesty Meets Modernity!
         </h2>

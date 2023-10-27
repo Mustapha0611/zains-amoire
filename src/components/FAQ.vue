@@ -1,11 +1,11 @@
 <template>
-  <div class="border-2 h-auto w-full">
+  <div class=" h-auto w-full">
     <h2 class="text-center font-semibold md:text-6xl text-4xl my-10">FAQs</h2>
     <Accordion   class="w-[80%] mx-auto py-5">
       <AccordionTab
         v-for="faq of faqs"
         :header="faq.question"
-        toggleable
+        
       
       >
         <p>{{ faq.answer }}</p>

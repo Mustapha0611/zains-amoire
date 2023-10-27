@@ -1,12 +1,12 @@
 <template>
   <div class="">
     <span
-      class="border-2 border-black fixed bottom-10 right-2 p-3 rounded-full animate-bounce w rot"
+      class="border-2 border-black fixed bottom-10 right-1 p-2 rounded-full animate-bounce w rot"
       @click="scrollToTop"
       ><img src="@/assets/Angle-up.png" class="w-5"
     /></span>
     <headerSection class="z-20" />
-    <hero class="z-10" />
+    <hero class="-z-10" />
     <about id="abt" />
     <products id="prod" />
     <feedback />
@@ -22,6 +22,9 @@ import products from "./products.vue";
 import feedback from "./feedback.vue";
 import FAQ from "./FAQ.vue";
 import footerSection from "./footerSection.vue";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
+
 export default {
   components: {
     headerSection,
@@ -36,6 +39,13 @@ export default {
     scrollToTop(){
       window.scrollTo(0,0)
     }
+  },
+  mounted(){
+    AOS.init({
+      duration: 500, // Animation duration
+      easing: 'ease-in-out', // Easing option
+     // Whether animation should happen only once
+    });
   }
 };
 </script>

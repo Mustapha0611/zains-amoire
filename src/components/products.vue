@@ -1,7 +1,7 @@
 <template>
   <div class="px-10">
     <section class="title">
-      <h2 class="text-center font-semibold md:text-6xl text-4xl my-10">
+      <h2 class="text-center font-semibold md:text-6xl text-4xl my-10" data-aos="fade-up" >
         Store
       </h2>
     </section>

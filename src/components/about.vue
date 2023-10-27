@@ -1,7 +1,7 @@
 <template>
   <div class="my-5 lg:h-[70vh] h-auto px-12">
     <section class="title">
-      <h2 class="text-center font-semibold md:text-6xl text-4xl my-10">About</h2>
+      <h2 class="text-center font-semibold md:text-6xl text-4xl my-10" data-aos="fade-up" >About</h2>
     </section>
     <section class="flex flex-col md:flex-row justify-center items-center">
       <div class="flex-1">
@@ -11,12 +11,12 @@
         <h2 class="font-semibold text-lg lg:text-2xl py-5">
           Welcome to Zain Amoire – Where Modesty Meets Modernity!
         </h2>
-        <p class="leading-[1.55]">
+        <p class="leading-[1.55]" data-aos="fade-up" >
           Step into a realm of elegance and grace at Zain Amoire. We specialize
           in curated collections of hijabs, palazzo pants, and veils, designed
           for the confident, modest woman of today.
         </p>
-        <h2 class="font-semibold text-lg lg:text-2xl pt-3 ">Why Zain Amoire?</h2>
+        <h2 class="font-semibold text-lg lg:text-2xl pt-3 " data-aos="fade-up" >Why Zain Amoire?</h2>
         <p v-for="q in quality" class="py-2"><span class=" font-semibold">{{ q.title }}</span>{{ q.body }}</p>
       </div>
     </section>

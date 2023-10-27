@@ -3,6 +3,7 @@ import preloader from "./components/preloader.vue";
 import HomeView from "./components/HomeView.vue";
 import hero from "./components/hero.vue";
 import 'animate.css';
+import aos from 'aos';
 export default {
   components: {
     preloader,
@@ -15,6 +16,7 @@ export default {
       this.isLoading = false;
     }, this.loadingTime + randomNum);
     console.log(randomNum);
+    aos.init()
   },
   data() {
     return {

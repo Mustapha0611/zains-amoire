@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex w-full h-[10vh] shadow-md justify-evenly items-center pl-6 pr-12 top-0 left-0"
+    class="flex w-full h-[10vh] shadow-md justify-evenly items-center md:pl-10 pl-5 pr-12 top-0 left-0"
   >
     <span
       class="md:hidden absolute top-5 right-5 text-2xl text-slate-100 cursor-pointer"
@@ -9,8 +9,10 @@
       <img src="@/assets/menu.png" alt="" />
     </span>
     <div class="logo flex-1">
-      <span class="font-bold px-2 md:text-2xl text-xl"
-        >Zain_Amoire</span
+      <span class="px-1 md:text-2xl text-xl"
+        >
+        <img src="@/assets/logo.png" class="md:w-20 w-16 h-10 " alt="">
+        </span
       >
     </div>
 
@@ -59,11 +61,12 @@
           >
         </li>
         <div
-          class="flex justify-between md:relative absolute bottom-12 right-[35%] md:right-0 md:top-0 text-2xl text-lime-100 md:text-slate-950 cursor-pointer"
+          class="flex justify-between md:relative absolute bottom-12 right-[35%] md:right-0 md:top-0 text-2xl text-gray-50 md:text-slate-950 cursor-pointer"
         >
           <a
             href="#contact"
             class="px-10 py-2 text-sm border-2 border-slate-700 rounded-md"
+            @click="toggleMenu"
           >
             Contact
           </a>

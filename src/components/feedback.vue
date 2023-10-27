@@ -3,7 +3,7 @@
     <h2 class="text-center font-semibold md:text-6xl text-4xl mt-10 mb-5 py-5">Reviews</h2>
       <Carousel :value="reviews" :numVisible="3" :numScroll="1" :responsiveOptions="responsiveOptions" :autoplayInterval="5000">
     <template #item="slotProps">
-        <div class="border-2 m-2  py-16 px-3 rounded-md shadow-lg min-h-[200px] md:min-h-[200px] mx-5">
+        <div class="border-2 m-2  py-16 px-3 rounded-md shadow-lg min-h-[200px] md:min-h-[200px] mx-1 md:mx-4">
             <div class="mb-3">
                 "{{ slotProps.data.comment }}"
             </div>

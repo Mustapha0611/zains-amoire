@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="overflow-hidden">
     <Transition
       name="custom-classes"
       enter-active-class=""
@@ -42,5 +42,6 @@ export default {
 <style>
  html{
   scroll-behavior: smooth;
+  /* overflow: hidden; */
  }
 </style>

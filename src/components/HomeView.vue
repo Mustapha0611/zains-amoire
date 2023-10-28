@@ -3,7 +3,7 @@
     <span
       class="border-2 border-black fixed bottom-10 right-1 p-2 rounded-full animate-bounce w rot"
       @click="scrollToTop"
-      ><img src="@/assets/Angle-up.png" class="w-5"
+      ><img src="@/assets/angle-up.png" class="w-5"
     /></span>
     <headerSection class="z-20" />
     <hero class="-z-10" />

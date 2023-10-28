@@ -6,7 +6,7 @@
       </h2>
     </section>
     <section class="flex flex-col flex-wrap md:flex-row justify-center gap-10 items-center">
-      <div class=" shadow-xl md:w-[320px] w-[90%] h-[50vh] border-2 border-gray-100 rounded-lg hover:scale-105 transition-all overflow-hidden" v-for="prod in products">
+      <div class=" shadow-xl md:w-[320px] w-[90%] h-[50vh] border-2 border-gray-100 rounded-lg hover:scale-105 transition-all overflow-hidden" v-for="prod in products" data-aos="fade-up">
         <img :src="prod.img" alt="" class="w-full h-[40vh] grayscale  hover:scale-105 transition-all overflow-hidden">
         <span class="text-2xl p-5 font-semibold block">{{ prod.title }}</span>
     </div>

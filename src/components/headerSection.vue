@@ -18,7 +18,7 @@
 
     <nav class="flex-2">
       <ul
-        class="flex md:justify-start justify-center md:items-start transition-all items-center text-slate-50 md:text-slate-800 font-semibold md:flex-row flex-col md:relative absolute w-full h-[100vh] md:h-12 -left-[100%] md:transform-none top-0 md:left-0 bg-black md:bg-white"
+        class="flex md:justify-start justify-center md:items-start transition-all items-center text-slate-50 md:text-slate-800 font-semibold md:flex-row flex-col md:relative absolute w-full h-[100vh] md:h-12 -left-[100%] md:transform-none top-0 md:left-0 bg-black md:bg-white z-50"
         :class="{ show: showMenu }"
       >
         <span
@@ -30,7 +30,7 @@
         >
         <li class="py-2 px-4">
           <a
-            href=""
+            href="#"
             class="pb-4 md:hover:text-slate-800 hover:border-b-2 hover:border-b-gray-400 md:hover:border-b-slate-900 hover:text-gray-300"
             @click="toggleMenu"
             >Home</a

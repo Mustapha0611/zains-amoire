@@ -5,7 +5,7 @@
     </section>
     <section class="flex flex-col md:flex-row justify-center items-center">
       <div class="flex-1">
-        <img src="../assets/hijab.jpg" alt="" class="grayscale lg:h-[55vh] md:h-[60vh] h-[30vh]" />
+        <img src="../assets/hijab.jpg" alt="" class="grayscale lg:h-[55vh] md:h-[60vh] h-[30vh]" data-aos="fade-left" />
       </div>
       <div class="flex-1 md:px-5 animate__animated animate__fadeInTopLeft">
         <h2 class="font-semibold text-lg lg:text-2xl py-5">
@@ -17,7 +17,7 @@
           for the confident, modest woman of today.
         </p>
         <h2 class="font-semibold text-lg lg:text-2xl pt-3 " data-aos="fade-up" >Why Zain Amoire?</h2>
-        <p v-for="q in quality" class="py-2"><span class=" font-semibold">{{ q.title }}</span>{{ q.body }}</p>
+        <p v-for="q in quality" class="py-2" data-aos="zoom-in"><span class=" font-semibold">{{ q.title }}</span>{{ q.body }}</p>
       </div>
     </section>
   </div>

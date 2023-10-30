@@ -42,6 +42,5 @@ export default {
 <style>
  html{
   scroll-behavior: smooth;
-  /* overflow: hidden; */
  }
 </style>

@@ -5,7 +5,7 @@
       @click="scrollToTop"
       ><img src="@/assets/angle-up.png" class="w-5"
     /></span>
-    <headerSection class="z-20" />
+    <headerSection class="z-20 zzz" />
     <hero class="-z-10" />
     <about id="abt" />
     <products id="prod" />
@@ -52,5 +52,8 @@ export default {
 <style>
 .rot {
   transform: rotateY(30deg);
+}
+.zzz{
+  z-index: 999;
 }
 </style>

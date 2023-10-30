@@ -7,30 +7,34 @@
     </section>
     <section class="flex flex-col flex-wrap md:flex-row justify-center gap-10 items-center">
       <div class=" shadow-xl md:w-[320px] w-[90%] h-[50vh] border-2 border-gray-100 rounded-lg hover:scale-105 transition-all overflow-hidden" v-for="prod in products" data-aos="fade-up">
-        <img :src="prod.img" alt="" class="w-full h-[40vh] grayscale  hover:scale-105 transition-all overflow-hidden">
+        <img :src="prod.img" alt="" class="w-full h-[40vh] grayscale  hover:scale-105 transition-all overflow-hidden" data-aos="zoom-in"
+        data-aos-delay="300">
         <span class="text-2xl p-5 font-semibold block">{{ prod.title }}</span>
     </div>
     </section>
   </div>
 </template>
 <script>
-import abaya from "../assets/abaya.jpg";
-import abaya2 from "../assets/abaya2.jpg";
+import hijab from "../assets/hijab.jpeg";
+import wrapskirt from "../assets/wrapskirt.jpg";
+import wraptop from "../assets/wraptop.jpg";
+import trouser from "../assets/trouser.jpg";
+import skirts from "../assets/skirts.jpg";
+import gowns from "../assets/gowns.jpg"
 import palazzo from "../assets/palazzo.jpg";
 import viel from "../assets/viel.jpg";
-import veil2 from "../assets/veil2.jpg";
-import hijab2 from "../assets/hijab2.jpg";
+
 export default {
   data() {
     return {
       products: [
         {
-          title: "Abaya",
-          img: abaya,
+          title: "Hijab",
+          img: hijab,
         },
         {
-          title: "Abaya",
-          img: abaya2,
+          title: "Wrap Skirt",
+          img: wrapskirt,
         },
         {
           title: "Palazzo",
@@ -41,12 +45,20 @@ export default {
           img: viel,
         },
         {
-          title: "Hijab",
-          img: hijab2,
+          title: "Wrap Top",
+          img: wraptop,
         },
         {
-          title: "Veil",
-          img: veil2,
+          title: "Gowns",
+          img: gowns,
+        },
+        {
+          title: "Trousers",
+          img: trouser,
+        },
+        {
+          title: "Skirt",
+          img: skirts,
         },
       ],
     };

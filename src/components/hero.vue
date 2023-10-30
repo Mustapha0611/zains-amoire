@@ -7,15 +7,16 @@
         <h2
           class=" font-bold py-2 md:py-10 lg:text-6xl text-5xl leading-[1.5] lg:leading-normal" 
           data-aos="fade-up"
+          data-aos-delay="300"
         >
           Experience Modest Fashion Like Never Before
         </h2>
-        <p class="py-5" data-aos="fade-left">From Timeless Classic to Latest Fashion Pieces</p>
+        <p class="py-5" data-aos="fade-left" data-aos-delay="400">From Timeless Classic to Latest Fashion Pieces</p>
         <div class="py-10 flex md:flex-row flex-col gap-3" >
           <a
             href="#prod"
             class="text-white px-3 py-3 text-center text-sm lg:px-5 border-2 border-black bg-black md:mr-5 hover:text-black hover:bg-white transition-all"
-            data-aos="fade-left">Get Stylishly Modest</a
+            data-aos="fade-left" data-aos-delay="500">Get Stylishly Modest</a
           >
           <a
             href="#contact"

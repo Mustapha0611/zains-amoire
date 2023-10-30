@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <span
-      class="border-2 border-black fixed bottom-10 right-1 p-2 rounded-full animate-bounce w rot"
+      class="border-2 border-black fixed bottom-10 right-1 p-2 rounded-full   rot"
       @click="scrollToTop"
       ><img src="@/assets/angle-up.png" class="w-5"
     /></span>

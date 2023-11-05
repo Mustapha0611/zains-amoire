@@ -4,17 +4,14 @@
     </div>
 </template>
 <script>
-import Button from 'primevue/button';
 export default{
     components:{
-        Button
+   
     }
 }
 </script>
 <style scoped>
-.bounce{
-    animation: bouncing 1s linear infinite;
-}
+
 
 @keyframes bouncing {
     0%{

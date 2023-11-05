@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <span
       class="border-2 border-black fixed bottom-10 right-1 p-2 rounded-full   rot"
       @click="scrollToTop"

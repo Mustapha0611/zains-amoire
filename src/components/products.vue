@@ -15,14 +15,14 @@
   </div>
 </template>
 <script>
-import hijab from "../assets/hijab.jpeg";
-import wrapskirt from "../assets/wrapskirt.jpg";
-import wraptop from "../assets/wraptop.jpg";
-import trouser from "../assets/trouser.jpg";
-import skirts from "../assets/skirts.jpg";
-import gowns from "../assets/gowns.jpg"
-import palazzo from "../assets/palazzo.jpg";
-import viel from "../assets/viel.jpg";
+import hijab from "../assets/hijab.png";
+import wrapskirt from "../assets/wrapskirt.png";
+import wraptop from "../assets/wraptop.png";
+import trouser from "../assets/trouser.png";
+import skirts from "../assets/skirts.png";
+import gowns from "../assets/gowns.png"
+import palazzo from "../assets/palazzo.png";
+import viel from "../assets/viel.png";
 
 export default {
   data() {
